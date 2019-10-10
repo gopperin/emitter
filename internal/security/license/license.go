@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/emitter-io/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/security"
 )
 
 var be = binary.BigEndian

@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/async"
+	"github.com/gopperin/emitter/internal/async"
 	"github.com/kelindar/rate"
 )
 

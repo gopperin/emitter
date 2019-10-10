@@ -22,7 +22,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/security"
 )
 
 // HTTP creates a new HTTP handler which can be used to serve HTTP keygen page.

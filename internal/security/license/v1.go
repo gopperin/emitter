@@ -21,8 +21,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/security"
-	"github.com/emitter-io/emitter/internal/security/cipher"
+	"github.com/gopperin/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/security/cipher"
 )
 
 // Gets the beginning of time for the timestamp, which is 2010/1/1 00:00:00

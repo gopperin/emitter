@@ -20,8 +20,8 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/emitter-io/emitter/internal/security"
-	"github.com/emitter-io/emitter/internal/security/cipher"
+	"github.com/gopperin/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/security/cipher"
 	"github.com/golang/snappy"
 	"github.com/kelindar/binary"
 )

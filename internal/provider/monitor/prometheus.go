@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/async"
+	"github.com/gopperin/emitter/internal/async"
 	"github.com/emitter-io/stats"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

@@ -20,7 +20,7 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/provider/logging"
+	"github.com/gopperin/emitter/internal/provider/logging"
 )
 
 // Repeat performs an action asynchronously on a predetermined interval.

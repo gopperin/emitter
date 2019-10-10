@@ -21,7 +21,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/emitter-io/emitter/internal/security/hash"
+	"github.com/gopperin/emitter/internal/security/hash"
 )
 
 // Various constant parts of the SSID.

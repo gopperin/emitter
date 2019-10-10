@@ -20,9 +20,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/async"
-	"github.com/emitter-io/emitter/internal/message"
-	"github.com/emitter-io/emitter/internal/provider/logging"
+	"github.com/gopperin/emitter/internal/async"
+	"github.com/gopperin/emitter/internal/message"
+	"github.com/gopperin/emitter/internal/provider/logging"
 	"github.com/weaveworks/mesh"
 )
 

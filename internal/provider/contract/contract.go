@@ -22,12 +22,12 @@ import (
 	"time"
 
 	"github.com/emitter-io/config"
-	"github.com/emitter-io/emitter/internal/async"
-	"github.com/emitter-io/emitter/internal/network/http"
-	"github.com/emitter-io/emitter/internal/provider/logging"
-	"github.com/emitter-io/emitter/internal/provider/usage"
-	"github.com/emitter-io/emitter/internal/security"
-	"github.com/emitter-io/emitter/internal/security/license"
+	"github.com/gopperin/emitter/internal/async"
+	"github.com/gopperin/emitter/internal/network/http"
+	"github.com/gopperin/emitter/internal/provider/logging"
+	"github.com/gopperin/emitter/internal/provider/usage"
+	"github.com/gopperin/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/security/license"
 )
 
 // The contract's state possible values.

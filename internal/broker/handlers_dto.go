@@ -18,9 +18,9 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/message"
-	"github.com/emitter-io/emitter/internal/provider/logging"
-	"github.com/emitter-io/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/message"
+	"github.com/gopperin/emitter/internal/provider/logging"
+	"github.com/gopperin/emitter/internal/security"
 )
 
 // Response represents a response which can be sent for a specific request.

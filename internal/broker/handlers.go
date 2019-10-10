@@ -20,11 +20,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/errors"
-	"github.com/emitter-io/emitter/internal/message"
-	"github.com/emitter-io/emitter/internal/network/mqtt"
-	"github.com/emitter-io/emitter/internal/provider/logging"
-	"github.com/emitter-io/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/errors"
+	"github.com/gopperin/emitter/internal/message"
+	"github.com/gopperin/emitter/internal/network/mqtt"
+	"github.com/gopperin/emitter/internal/provider/logging"
+	"github.com/gopperin/emitter/internal/security"
 	"github.com/kelindar/binary"
 )
 

@@ -20,8 +20,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/emitter-io/emitter/internal/config"
-	"github.com/emitter-io/emitter/internal/security/hash"
+	"github.com/gopperin/emitter/internal/config"
+	"github.com/gopperin/emitter/internal/security/hash"
 )
 
 // Channel types

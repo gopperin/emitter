@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/message"
+	"github.com/gopperin/emitter/internal/message"
 	"github.com/kelindar/binary"
 	"github.com/tidwall/buntdb"
 )

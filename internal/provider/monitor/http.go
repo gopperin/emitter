@@ -19,9 +19,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/async"
-	"github.com/emitter-io/emitter/internal/network/http"
-	"github.com/emitter-io/emitter/internal/provider/logging"
+	"github.com/gopperin/emitter/internal/async"
+	"github.com/gopperin/emitter/internal/network/http"
+	"github.com/gopperin/emitter/internal/provider/logging"
 	"github.com/emitter-io/stats"
 )
 

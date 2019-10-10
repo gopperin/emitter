@@ -23,8 +23,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/message"
-	"github.com/emitter-io/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/message"
+	"github.com/gopperin/emitter/internal/security"
 	"github.com/weaveworks/mesh"
 )
 

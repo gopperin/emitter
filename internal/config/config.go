@@ -22,7 +22,7 @@ import (
 
 	"github.com/emitter-io/address"
 	cfg "github.com/emitter-io/config"
-	"github.com/emitter-io/emitter/internal/provider/logging"
+	"github.com/gopperin/emitter/internal/provider/logging"
 )
 
 // Constants used throughout the service.

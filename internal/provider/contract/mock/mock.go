@@ -15,9 +15,9 @@
 package mock
 
 import (
-	"github.com/emitter-io/emitter/internal/provider/contract"
-	"github.com/emitter-io/emitter/internal/provider/usage"
-	"github.com/emitter-io/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/provider/contract"
+	"github.com/gopperin/emitter/internal/provider/usage"
+	"github.com/gopperin/emitter/internal/security"
 	"github.com/stretchr/testify/mock"
 )
 

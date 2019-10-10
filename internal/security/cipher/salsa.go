@@ -18,7 +18,7 @@ import (
 	"encoding/base64"
 	"errors"
 
-	"github.com/emitter-io/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/security"
 	"golang.org/x/crypto/salsa20/salsa"
 )
 

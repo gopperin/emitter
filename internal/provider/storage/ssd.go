@@ -24,9 +24,9 @@ import (
 	"github.com/dgraph-io/badger"
 	"github.com/dgraph-io/badger/protos"
 	"github.com/dgraph-io/badger/y"
-	"github.com/emitter-io/emitter/internal/async"
-	"github.com/emitter-io/emitter/internal/message"
-	"github.com/emitter-io/emitter/internal/provider/logging"
+	"github.com/gopperin/emitter/internal/async"
+	"github.com/gopperin/emitter/internal/message"
+	"github.com/gopperin/emitter/internal/provider/logging"
 	"github.com/kelindar/binary"
 )
 

@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/async"
+	"github.com/gopperin/emitter/internal/async"
 	"github.com/emitter-io/stats"
 	"gopkg.in/alexcesaro/statsd.v2"
 )

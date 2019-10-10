@@ -22,11 +22,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/errors"
-	"github.com/emitter-io/emitter/internal/provider/contract"
-	"github.com/emitter-io/emitter/internal/security"
-	"github.com/emitter-io/emitter/internal/security/hash"
-	"github.com/emitter-io/emitter/internal/security/license"
+	"github.com/gopperin/emitter/internal/errors"
+	"github.com/gopperin/emitter/internal/provider/contract"
+	"github.com/gopperin/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/security/hash"
+	"github.com/gopperin/emitter/internal/security/license"
 )
 
 // Provider represents a key generation provider.

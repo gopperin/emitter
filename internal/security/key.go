@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/security/hash"
+	"github.com/gopperin/emitter/internal/security/hash"
 )
 
 // Gets the beginning of time for the timestamp, which is 2010/1/1 00:00:00
@@ -192,7 +192,7 @@ func (k Key) SetTarget(channel string) error {
 	}
 
 	// Get all of the parts for the target channel
-	// History: https://github.com/emitter-io/emitter/issues/76
+	// History: https://github.com/gopperin/emitter/issues/76
 	parts := strings.Split(strings.TrimRight(channel, "/"), "/")
 	wildcard := parts[len(parts)-1] == "#"
 

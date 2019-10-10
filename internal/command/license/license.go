@@ -17,8 +17,8 @@ package license
 import (
 	"fmt"
 
-	"github.com/emitter-io/emitter/internal/provider/logging"
-	"github.com/emitter-io/emitter/internal/security/license"
+	"github.com/gopperin/emitter/internal/provider/logging"
+	"github.com/gopperin/emitter/internal/security/license"
 	"github.com/jawher/mow.cli"
 )
 

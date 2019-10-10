@@ -20,11 +20,11 @@ import (
 
 	"github.com/emitter-io/config/dynamo"
 	"github.com/emitter-io/config/vault"
-	"github.com/emitter-io/emitter/internal/broker"
-	"github.com/emitter-io/emitter/internal/command/license"
-	"github.com/emitter-io/emitter/internal/command/load"
-	"github.com/emitter-io/emitter/internal/config"
-	"github.com/emitter-io/emitter/internal/provider/logging"
+	"github.com/gopperin/emitter/internal/broker"
+	"github.com/gopperin/emitter/internal/command/license"
+	"github.com/gopperin/emitter/internal/command/load"
+	"github.com/gopperin/emitter/internal/config"
+	"github.com/gopperin/emitter/internal/provider/logging"
 	"github.com/jawher/mow.cli"
 )
 
