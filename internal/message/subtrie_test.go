@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/emitter-io/emitter/internal/security/hash"
+	"github.com/gopperin/emitter/internal/security/hash"
 	"github.com/stretchr/testify/assert"
 )
 

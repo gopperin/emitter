@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/emitter-io/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/security"
 	"github.com/stretchr/testify/assert"
 )
 

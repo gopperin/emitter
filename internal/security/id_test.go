@@ -52,3 +52,16 @@ func TestIDToUnique(t *testing.T) {
 	assert.Equal(t, "F45JPXDSXVRWBUKTDNCCM4PGQI", i1.Unique(123, "hello"))
 	assert.Equal(t, "XCFU2OA7OO2COPZOJ5VA6GS6BM", i2.Unique(123, "hello"))
 }
+
+func BenchmarkUnique(b *testing.B) {
+	defer func(n uint64) { next = n }(next)
+
+	next = 0
+	i1 := NewID()
+
+	b.ReportAllocs()
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		i1.Unique(123, "hello")
+	}
+}

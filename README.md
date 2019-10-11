@@ -73,6 +73,9 @@ This message shows that a new security configuration was generated, you can then
 
 Finally, open a browser and navigate to **<http://127.0.0.1:8080/keygen>** in order to generate your key. Now you can use the secret key generated to create channel keys, which allow you to secure individual channels and start using emitter.
 
+EMITTER_LICENSE=7dZyGe3w7X7SV0AFKJZkhj2un7jYOQwOAAAAAAAAAAI:1 go run *.go
+
+key=BncYZyamq6Y24TtBfrM6jNP-roGQSUG4
 
 ## Usage Example
 

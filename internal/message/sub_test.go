@@ -19,7 +19,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/emitter-io/emitter/internal/security"
+	"github.com/gopperin/emitter/internal/security"
 	"github.com/stretchr/testify/assert"
 )
 

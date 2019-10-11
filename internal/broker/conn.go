@@ -25,6 +25,7 @@ import (
 	"time"
 
 	"github.com/emitter-io/address"
+	"github.com/emitter-io/stats"
 	"github.com/gopperin/emitter/internal/broker/keygen"
 	"github.com/gopperin/emitter/internal/errors"
 	"github.com/gopperin/emitter/internal/message"
@@ -32,7 +33,6 @@ import (
 	"github.com/gopperin/emitter/internal/provider/contract"
 	"github.com/gopperin/emitter/internal/provider/logging"
 	"github.com/gopperin/emitter/internal/security"
-	"github.com/emitter-io/stats"
 	"github.com/kelindar/rate"
 )
 
